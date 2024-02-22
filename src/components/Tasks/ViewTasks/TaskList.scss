@@ -1,0 +1,86 @@
+.task-list-container {
+  margin: 20px;
+}
+
+.task-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-task-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+.task-items-container {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.no-tasks-message {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+}
+/* TaskList.scss */
+.task-list-container {
+  margin: 20px;
+}
+
+.task-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-task-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.no-tasks-message {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+}
